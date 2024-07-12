@@ -2,7 +2,9 @@ import React from 'react'
 
 const Courses = () => {
     return (
-        <h1 className='bg-gray-400 h-56 text-center p-3'>Courses will be added here!</h1>
+        <div className='bg-gray-400 h-screen'>
+            <h1 className='text-center text-md p-3'>Student Info!</h1>
+        </div>
     )
 }
 
