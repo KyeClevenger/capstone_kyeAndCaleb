@@ -8,6 +8,17 @@ import vetImage from './pics/veterinary-assistant.jpg';
 import animationImage from './pics/animationClass.jpg';
 import scienceImage from './pics/scienceClass.jpg';
 
+const images = [
+  { src: mathImage, alt: "math pic" },
+  { src: doctorImage, alt: "doctor image" },
+  { src: englishImage, alt: "English Class" },
+  { src: csImage, alt: "Computer Science Class" },
+  { src: engineering, alt: "Engineering Technology Class" },
+  { src: vetImage, alt: "Veterinary Class" },
+  { src: animationImage, alt: "Computer Animation Class" },
+  { src: scienceImage, alt: "Science Class" }
+];
+
 const Landing = () => {
   const scrollContainerRef = useRef(null);
 
@@ -20,7 +31,7 @@ const Landing = () => {
         scrollAmount += 1;
         scrollContainer.scrollLeft = scrollAmount;
 
-        if (scrollAmount >= scrollContainer.scrollWidth - scrollContainer.clientWidth) {
+        if (scrollAmount >= scrollContainer.scrollWidth / 2) {
           scrollAmount = 0;
         }
       }
@@ -34,38 +45,25 @@ const Landing = () => {
   return (
     <div className='college h-screen' id="home">
       <div className='backdrop-blur-sm h-full text-white'>
-        <h1 className="text-7xl p-3 text-center pt-32">Landing Page</h1>
-        <h3 className='text-center text-2xl p-12 w-screen'>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id eum reiciendis quaerat, aperiam suscipit nemo ut asperiores vel molestias error eos beatae repellendus sapiente qui nihil, deleniti praesentium quam optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quis ullam perferendis earum velit, maxime aperiam minima cupiditate assumenda corrupti tenetur quaerat temporibus enim doloribus quisquam voluptas nulla quidem ad.
+        <h1 className="text-7xl p-3 text-center pt-32">Calyek University</h1>
+        <h3 className='text-2xl p-12 m-12 text-justify w-3/5'>
+          Welcome to CalyeK University, where innovation meets excellence! Founded on integrity, knowledge, and discovery, we are a beacon of academic brilliance and cutting-edge research. Our dynamic, inclusive campus brings together students from diverse backgrounds to learn, grow, and shape the future. With state-of-the-art facilities, world-renowned faculty, and a vibrant student community, we offer an unparalleled educational experience.
         </h3>
         <div
           ref={scrollContainerRef}
-          className='flex flex-nowrap gap-8 p-6 justify-center items-center overflow-x-auto'
+          className='scroll-container flex flex-nowrap gap-8 p-6 justify-center items-center overflow-x-auto'
+          style={{ display: 'flex', width: '100%' }}
         >
-          <a href="home" className="flex-shrink-0 border-4 border-gray-400 rounded-lg drop-shadow-lg">
-            <img className='coverPics' src={mathImage} alt="math pic" />
-          </a>
-          <a href="home" className="flex-shrink-0 border-4 border-gray-400 rounded-lg drop-shadow-lg">
-            <img className='coverPics' src={doctorImage} alt="doctor image" />
-          </a>
-          <a href="home" className="flex-shrink-0 border-4 border-gray-400 rounded-lg drop-shadow-lg">
-            <img className='coverPics' src={englishImage} alt="English Class" />
-          </a>
-          <a href="home" className="flex-shrink-0 border-4 border-gray-400 rounded-lg drop-shadow-lg">
-            <img className='coverPics' src={csImage} alt="Computer Science Class" />
-          </a>
-          <a href="home" className="flex-shrink-0 border-4 border-gray-400 rounded-lg drop-shadow-lg">
-            <img className='coverPics' src={engineering} alt="Engineering Technology Class" />
-          </a>
-          <a href="home" className="flex-shrink-0 border-4 border-gray-400 rounded-lg drop-shadow-lg">
-            <img className='coverPics' src={vetImage} alt="Veterinary Class" />
-          </a>
-          <a href="home" className="flex-shrink-0 border-4 border-gray-400 rounded-lg drop-shadow-lg">
-            <img className='coverPics' src={animationImage} alt="Computer Animation Class" />
-          </a>
-          <a href="home" className="flex-shrink-0 border-4 border-gray-400 rounded-lg drop-shadow-lg">
-            <img className='coverPics' src={scienceImage} alt="Science Class" />
-          </a>
+          {[...images, ...images].map((image, index) => (
+            <a
+              key={index}
+              href="home"
+              className="flex-shrink-0 border-4 border-gray-400 rounded-lg drop-shadow-lg"
+              style={{ minWidth: '200px' }}
+            >
+              <img className='coverPics' src={image.src} alt={image.alt} />
+            </a>
+          ))}
         </div>
       </div>
     </div>
