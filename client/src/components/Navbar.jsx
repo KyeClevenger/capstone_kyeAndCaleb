@@ -35,7 +35,7 @@ const Navbar = () => {
                     </svg>
                 </button>
                 <div className={`md:flex backdrop-blur-2xl md:items-end md:border-0 shadow-2xl border-t-0 border-2 gap-8 flex-grow absolute top-[5.45rem] right-0 w-full md:w-auto md:static md:flex-row-reverse md:gap-5 p-3 md:p-0 ${isMenuOpen ? 'block' : 'hidden'} no-horizontal-scrollbar`}>
-                    <button onClick={() => scrollToSection('login')} className="block md:inline-block">Login</button>
+                    <button onClick={() => scrollToSection('home')} className="block md:inline-block">Login</button>
                     <button onClick={() => scrollToSection('info')} className="block md:inline-block">Info</button>
                     <button onClick={() => scrollToSection('courses')} className="block md:inline-block">Courses</button>
                     <button onClick={() => scrollToSection('home')} className="block md:inline-block">Home</button>
