@@ -58,7 +58,7 @@ const Landing = () => {
             <a
               key={index}
               href="home"
-              className="flex-shrink-0 border-4 border-gray-400 rounded-lg drop-shadow-lg"
+              className="flex-shrink-0 border-4 border-gray-200 rounded-lg drop-shadow-lg"
               style={{ minWidth: '200px' }}
             >
               <img className='coverPics' src={image.src} alt={image.alt} />
