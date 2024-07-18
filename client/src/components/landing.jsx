@@ -46,8 +46,8 @@ const Landing = () => {
     <div className='college h-screen' id="home">
       <div className='backdrop-blur-sm h-full text-white'>
         <h1 className="text-7xl p-3 text-center pt-32">Calyek University</h1>
-        <h3 className='text-2xl p-12 m-12 text-justify w-3/5'>
-          Welcome to CalyeK University, where innovation meets excellence! Founded on integrity, knowledge, and discovery, we are a beacon of academic brilliance and cutting-edge research. Our dynamic, inclusive campus brings together students from diverse backgrounds to learn, grow, and shape the future. With state-of-the-art facilities, world-renowned faculty, and a vibrant student community, we offer an unparalleled educational experience.
+        <h3 className='font-bold text-3xl text-gray-400 p-12 m-12 text-justify w-3/5'>
+        Are you ready to take the next step in your educational journey? Calyek University is excited to welcome new and returning students for the upcoming Fall Semester. As you prepare for a new academic year, consider joining our vibrant and diverse community of learners and leaders.
         </h3>
         <div
           ref={scrollContainerRef}
