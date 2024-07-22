@@ -22,7 +22,7 @@ const Courses = () => {
                     </h5>
                     <img className="coverPics" src={mathImage} alt="math" />
                     <p class=" p-3 text-gray-700 dark:text-gray-400">
-                    This course applies a variety of mathematical functions (linear, quadratic, power, polynomial, rational, exponential, logarithmic, and logistic) to analyze business scenarios such as market equilibrium, rates of change, cost-benefit analysis, and inflation. It also covers systems of equations, matrices, sequences, series, and financial mathematics, offering essential tools for solving real-world business problems.
+                    This course applies a variety of mathematical functions (linear, quadratic, power, polynomial, rational, exponential, logarithmic, and logistic) to analyze business scenarios such as market equilibrium, rates of change, cost-benefit analysis, and inflation.
                     </p>
                 </a>
                 <a
@@ -34,7 +34,7 @@ const Courses = () => {
                     </h5>
                     <img className="coverPics" src={doctorImage} alt="Medical Class" />
                     <p class=" p-3 text-gray-700 dark:text-gray-400">
-                    This course delves into the pivotal role of registered nurses in delivering patient-centered, safe, and high-quality care to adult patients within healthcare environments. It underscores the criticality of assessment in both planning patient care strategies and assessing patient outcomes. Additionally, it explores how registered nurses function within interprofessional healthcare teams, highlighting their collaborative contributions to comprehensive patient care.
+                    This course delves into the pivotal role of registered nurses in delivering patient-centered, safe, and high-quality care to adult patients within healthcare environments. It underscores the criticality of assessment in both planning patient care strategies and assessing patient outcomes.
                     </p>
                 </a>
                 <a
@@ -70,7 +70,7 @@ const Courses = () => {
                     </h5>
                     <img className="coverPics" src={engineering} alt="Engineering Class" />
                     <p class=" p-3 text-gray-700 dark:text-gray-400">
-                    Calyek University's pre-engineering program is designed for students to complete the initial two to three years of engineering education at an ABET-accredited institution. It allows seamless transition to Calyek University's engineering track or transfer to any Utah university offering baccalaureate engineering degrees. Upon completing the program, students can apply for professional status at Calyek or another institution of choice. Admission to the pre-engineering major at Calyek University ensures automatic acceptance into the program.
+                    Calyek University's pre-engineering program is designed for students to complete the initial two to three years of engineering education at an ABET-accredited institution. It allows seamless transition to Calyek University's engineering track or transfer to any Utah university offering baccalaureate engineering degrees.
                     </p>
                 </a>
                 <a
@@ -82,7 +82,7 @@ const Courses = () => {
                     </h5>
                     <img className="coverPics" src={vetImage} alt="Vet class" />
                     <p class=" p-3 text-gray-700 dark:text-gray-400">
-                    Calyek University offers a dynamic Veterinary Medicine program that combines rigorous academic training with hands-on clinical experience. Our curriculum emphasizes comprehensive veterinary science, preparing students to diagnose, treat, and prevent illnesses in various animal species. With state-of-the-art facilities and expert faculty guidance, students gain practical skills and critical thinking abilities essential for successful careers in animal healthcare.
+                    Calyek University offers a dynamic Veterinary Medicine program that combines rigorous academic training with hands-on clinical experience. Our curriculum emphasizes comprehensive veterinary science, preparing students to diagnose, treat, and prevent illnesses in various animal species. .
                     </p>
                 </a>
                 <a
@@ -106,7 +106,7 @@ const Courses = () => {
                     </h5>
                     <img className="coverPics" src={scienceImage} alt="Science Class" />
                     <p class="p-3 text-gray-700 dark:text-gray-400">
-                    Delve into the world of science at Calyek University through our dynamic science classes. Covering biology, chemistry, physics, and environmental science, our curriculum merges theory with practical laboratory experiences. Guided by accomplished faculty, these courses cultivate critical thinking and essential skills for scientific exploration and advancement. Whether examining celestial phenomena or microscopic life forms, Calyek University prepares students for impactful careers and a deep comprehension of the scientific principles shaping our universe.
+                    Delve into the world of science at Calyek University through our dynamic science classes. Covering biology, chemistry, physics, and environmental science, our curriculum merges theory with practical laboratory experiences. Guided by accomplished faculty, these courses cultivate critical thinking and essential skills for scientific exploration and advancement.
                     </p>
                 </a>
             </div>
