@@ -5,7 +5,7 @@
 
 .college {
   background-attachment: fixed;
-  background-image: url('./components/pics/college.png'); 
+  background-image: url('./assets/images/college.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
