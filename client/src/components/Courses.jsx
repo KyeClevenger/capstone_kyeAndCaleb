@@ -22,7 +22,7 @@ const Courses = () => {
                     </h5>
                     <img className="coverPics" src={mathImage} alt="math" />
                     <p class=" p-3 text-gray-700 dark:text-gray-400">
-                    This course applies a variety of mathematical functions (linear, quadratic, power, polynomial, rational, exponential, logarithmic, and logistic) to analyze business scenarios such as market equilibrium, rates of change, cost-benefit analysis, and inflation.
+                    This course applies a variety of mathematical functions (linear, quadratic, power, polynomial, rational, exponential, logarithmic, and logistic) to analyze business scenarios such as market equilibrium, rates of change, cost-benefit analysis, and inflation. .
                     </p>
                 </a>
                 <a
