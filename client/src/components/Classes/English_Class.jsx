@@ -1,25 +1,26 @@
 import React from "react";
-import CSImage from '../../assets/images/CSCollege.jpg';
+import EnglishImage from '../../assets/images/EnglishClass.jpg';
 
-const CS_Class = () => {
+const English_Class = () => {
     return (
         <div className="relative h-screen w-screen bg-gray-800 p-36 ">
             <img 
                 className="absolute inset-0 w-full h-full object-cover blur-sm" 
-                src={CSImage} 
-                alt="Computer Science Class" 
+                src={EnglishImage} 
+                alt="English Class" 
             />
             
             <div className="relative z-10 flex flex-col items-center justify-center text-center bg-gray-600 rounded rounded-2xl mt-36 border border-4 shadow-2xl"> 
                 <h5 className="mb-4 text-6xl font-bold tracking-tight text-gray-900 dark:text-white p-16">
-                    Computer Science
+                    English
                 </h5>
                 <p className="p-12 text-gray-300 dark:text-gray-300 text-2xl">
-                Computer Science covers theory, programming, and innovative computing solutions development. Computer Scientists adeptly blend theoretical understanding with practical skills, continually exploring novel applications of computing technology. Major innovations like Google and Amazon exemplify the impact of computer science expertise.
+                Calyek University's English program develops students' writing, speaking, and interpretative skills across professional, social, and cultural contexts. Emphasizing both standard English proficiency and the appreciation of linguistic diversity, the program explores traditional literary works while encouraging critical analysis and inclusion of diverse voices in academic and societal spheres.
                 </p>
             </div>
         </div>
     );
 };
 
-export default CS_Class;
+export default English_Class;
+
