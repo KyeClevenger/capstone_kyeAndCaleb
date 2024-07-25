@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import Landing from './components/Landing';
+import Landing from './components/landing';
 import Info from './components/Info';
 import Courses from './components/Courses';
 import CoursesPage from './components/CoursesPage';
