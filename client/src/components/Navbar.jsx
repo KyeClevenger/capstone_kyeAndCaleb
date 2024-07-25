@@ -30,7 +30,7 @@ const Navbar = () => {
     }, [isMenuOpen]);
 
     return (
-        <nav className='text-white backdrop-blur-2xl fixed right-0 top-0 p-5 z-10 md:border-b-2 border-2 shadow-lg items-end flex md:flex-row justify-end'>
+        <nav className='z-50 text-white backdrop-blur-2xl fixed right-0 top-0 p-5 z-10 md:border-b-2 border-2 shadow-lg items-end flex md:flex-row justify-end'>
             <button
                 onClick={toggleMenu}
                 className="text-white inline-flex items-center mr-5 p-2 w-12 h-12 justify-center text-sm text-gray-500 rounded-lg md:hidden"
