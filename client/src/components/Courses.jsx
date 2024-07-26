@@ -12,7 +12,6 @@ import scienceImage from '../assets/images/scienceClass.jpg';
 const Courses = () => {
     return (
         <div className="bg-gray-400 h-full" id="courses">
-            <h1 className="text-center p-8 text-5xl">Courses</h1>
             <div className="flex flex-wrap p-12 h-full text-center justify-center gap-6">
                 <Link
                     to="/math_class"
