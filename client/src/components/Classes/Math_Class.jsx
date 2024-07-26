@@ -17,6 +17,11 @@ const Math_Class = () => {
                 <p className="p-12 text-gray-300 dark:text-gray-300 text-2xl">
                 This course applies a variety of mathematical functions (linear, quadratic, power, polynomial, rational, exponential, logarithmic, and logistic) to analyze business scenarios such as market equilibrium, rates of change, cost-benefit analysis, and inflation.
                 </p>
+                <div>
+                <button className="bg-gray-400 p-6 m-6 rounded rounded-lg shadow-lg border border-2 text-white">
+                    Add Class +
+                </button>
+            </div>
             </div>
         </div>
     );

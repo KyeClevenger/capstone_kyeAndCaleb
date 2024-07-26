@@ -17,6 +17,11 @@ const Vet_Class = () => {
                 <p className="p-12 text-gray-300 dark:text-gray-300 text-2xl">
                 Calyek University offers a dynamic Veterinary Medicine program that combines rigorous academic training with hands-on clinical experience. Our curriculum emphasizes comprehensive veterinary science, preparing students to diagnose, treat, and prevent illnesses in various animal species.
                 </p>
+                <div>
+                <button className="bg-gray-400 p-6 m-6 rounded rounded-lg shadow-lg border border-2 text-white">
+                    Add Class +
+                </button>
+            </div>
             </div>
         </div>
     );
