@@ -17,6 +17,11 @@ const Nursing_Class = () => {
                 <p className="p-12 text-gray-300 dark:text-gray-300 text-2xl">
                 This course delves into the pivotal role of registered nurses in delivering patient-centered, safe, and high-quality care to adult patients within healthcare environments. It underscores the criticality of assessment in both planning patient care strategies and assessing patient outcomes.
                 </p>
+                <div>
+                <button className="bg-gray-400 p-6 m-6 rounded rounded-lg shadow-lg border border-2 text-white">
+                    Add Class +
+                </button>
+            </div>
             </div>
         </div>
     );

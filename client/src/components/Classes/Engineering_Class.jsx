@@ -17,6 +17,11 @@ const Engineering_Class = () => {
                 <p className="p-12 text-gray-300 dark:text-gray-300 text-2xl">
                 Calyek University's pre-engineering program is designed for students to complete the initial two to three years of engineering education at an ABET-accredited institution. It allows seamless transition to Calyek University's engineering track or transfer to any Utah university offering baccalaureate engineering degrees.
                 </p>
+                <div>
+                <button className="bg-gray-400 p-6 m-6 rounded rounded-lg shadow-lg border border-2 text-white">
+                    Add Class +
+                </button>
+            </div>
             </div>
         </div>
     );

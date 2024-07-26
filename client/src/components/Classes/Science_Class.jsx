@@ -22,6 +22,11 @@ const Science_Class = () => {
                     cultivate critical thinking and essential skills for scientific
                     exploration and advancement.
                 </p>
+                <div>
+                <button className="bg-gray-400 p-6 m-6 rounded rounded-lg shadow-lg border border-2 text-white">
+                    Add Class +
+                </button>
+            </div>
             </div>
         </div>
     );
