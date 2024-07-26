@@ -25,7 +25,7 @@ function App() {
           <>
             <Landing />
             <Info />
-            <h1 className="text-center p-8 text-5xl font-semibold bg-gray-400">Popular Courses</h1>
+            <h1 className="text-center p-8 text-5xl font-semibold bg-gray-400 text-white underline underline-offset-8">Popular Courses</h1>
             <Courses />
           </>
         } />
