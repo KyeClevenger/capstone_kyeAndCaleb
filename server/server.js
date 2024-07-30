@@ -15,8 +15,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use((req, res, next) => {
-  console.log(req.path, req.method);
-  next();
+    console.log(req.path, req.method);
+    next();
 });
 
 // Connect to MongoDB
@@ -26,7 +26,7 @@ mongooseConfig(mongoose);
 app.use("/api/users", userRoutes);
 
 app.listen(process.env.PORT, () => {
-  console.log(`Server is listening on port ${process.env.PORT}`);
+    console.log(`Server is listening on port ${process.env.PORT}`);
 });
 
 // Serve React files
@@ -36,5 +36,5 @@ app.use(express.static(path.resolve(__dirname, "../client/dist")));
 
 // Handle GET requests to /api route
 app.get("/api", (req, res) => {
-  res.json({ message: "Hello from server!" });
+    res.json({ message: "Hello from server!" });
 });
