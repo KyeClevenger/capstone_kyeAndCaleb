@@ -3,7 +3,7 @@ import AnimationImage from '../../assets/images/animationClass.jpg';
 
 const Animation_Class = () => {
     return (
-        <div className="relative h-screen w-screen bg-gray-800 p-36 ">
+        <div className="relative h-screen w-screen bg-gray-800 p-36">
             <img 
                 className="absolute inset-0 w-full h-full object-cover blur-sm" 
                 src={AnimationImage} 
