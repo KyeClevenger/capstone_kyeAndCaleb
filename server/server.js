@@ -13,26 +13,26 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use((req, res, next) => {
-  console.log(req.path, req.method);
-  next();
+    console.log(req.path, req.method);
+    next();
 });
 
 // Connect to MongoDB
 const clientOptions = {
-  serverApi: { version: "1", strict: true, deprecationErrors: true },
+    serverApi: { version: "1", strict: true, deprecationErrors: true },
 };
 async function run() {
-  try {
-    // Create a Mongoose client with a MongoClientOptions object to set the Stable API version
-    await mongoose.connect(process.env.MONGO_URI, clientOptions);
-    await mongoose.connection.db.admin().command({ ping: 1 });
-    console.log(
-      "Pinged your deployment. You successfully connected to MongoDB!"
-    );
-  } finally {
-    // Ensures that the client will close when you finish/error
-    await mongoose.disconnect();
-  }
+    try {
+        // Create a Mongoose client with a MongoClientOptions object to set the Stable API version
+        await mongoose.connect(process.env.MONGO_URI, clientOptions);
+        await mongoose.connection.db.admin().command({ ping: 1 });
+        console.log(
+            "Pinged your deployment. You successfully connected to MongoDB!"
+        );
+    } finally {
+        // Ensures that the client will close when you finish/error
+        await mongoose.disconnect();
+    }
 }
 run().catch(console.dir);
 
@@ -40,7 +40,7 @@ run().catch(console.dir);
 app.use("/api/users", userRoutes);
 
 app.listen(process.env.PORT, () => {
-  console.log(`Server is listening on port ${process.env.PORT}`);
+    console.log(`Server is listening on port ${process.env.PORT}`);
 });
 
 // Serve React files
@@ -50,5 +50,5 @@ app.use(express.static(path.resolve(__dirname, "../client/dist")));
 
 // Handle GET requests to /api route
 app.get("/api", (req, res) => {
-  res.json({ message: "Hello from server!" });
+    res.json({ message: "Hello from server!" });
 });
