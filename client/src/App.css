@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 .college {
   background-attachment: fixed;
-  background-image: url('./assets/images/college.png');
+  background-image: url("./assets/images/college.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
   pointer-events: none;
 }
 
-.coverPics{
+.coverPics {
   height: 250px;
   width: 350px;
   background-size: cover;
@@ -25,12 +25,11 @@
 }
 
 .scroll-container {
-  -ms-overflow-style: none;  
-  scrollbar-width: none;  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .scroll-container::-webkit-scrollbar {
-  display: none;  
+  display: none;
   -ms-overflow-style: none;
 }
-
