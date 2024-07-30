@@ -3,20 +3,12 @@ import mathImage from '../assets/images/mathClass.jpg';
 import doctorImage from '../assets/images/The-Road-to-Medical-School.jpg';
 import englishImage from '../assets/images/EnglishClass.jpg';
 import CSImage from '../assets/images/CSCollege.jpg';
-import engineering from '../assets/images/engineering-technology.jpg';
-import vetImage from '../assets/images/veterinary-assistant.jpg';
-import animationImage from '../assets/images/animationClass.jpg';
-import scienceImage from '../assets/images/scienceClass.jpg';
 
 const images = [
   { src: mathImage, alt: "math pic" },
   { src: doctorImage, alt: "doctor image" },
   { src: englishImage, alt: "English Class" },
   { src: CSImage, alt: "Computer Science Class" },
-  { src: engineering, alt: "Engineering Technology Class" },
-  { src: vetImage, alt: "Veterinary Class" },
-  { src: animationImage, alt: "Computer Animation Class" },
-  { src: scienceImage, alt: "Science Class" }
 ];
 
 const Landing = () => {
