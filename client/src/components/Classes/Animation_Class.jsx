@@ -3,7 +3,7 @@ import AnimationImage from '../../assets/images/animationClass.jpg';
 
 const Animation_Class = () => {
     return (
-        <div className="relative h-screen w-screen bg-gray-800 p-36 ">
+        <div className="relative h-screen w-screen bg-gray-800 p-36">
             <img 
                 className="absolute inset-0 w-full h-full object-cover blur-sm" 
                 src={AnimationImage} 
@@ -17,6 +17,11 @@ const Animation_Class = () => {
                 <p className="p-12 text-gray-300 dark:text-gray-300 text-2xl">
                 alyek University's Animation program combines artistic creativity with advanced digital skills. Students learn to craft captivating visual stories using cutting-edge technology and industry-standard techniques. Through hands-on projects and collaboration with professionals, our program prepares graduates to excel in the dynamic world of animation.
                 </p>
+                <div>
+                <button className="bg-gray-400 p-6 m-6 rounded rounded-lg shadow-lg border border-2 text-white">
+                    Add Class +
+                </button>
+            </div>
             </div>
         </div>
     );

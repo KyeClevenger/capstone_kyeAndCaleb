@@ -4,7 +4,7 @@ import schoolLifeImage from '../assets/images/schoolLife.jpg';
 
 const Info = () => {
     return (
-        <div className='min-h-screen text-white bg-gray-300 p-6 md:p-24' id="info">
+        <div className='min-h-screen text-white bg-gray-300 p-6 md:p-24 border-t-4 border-b-4' id="info">
             <h1 className='text-center text-3xl md:text-5xl p-3 underline underline-offset-8'>Student Life!</h1>
             <div className='flex flex-col md:flex-row items-center'>
                 <img className="rounded-full w-full md:w-3/5 h-auto object-cover m-4 md:m-12 rounded-2xl" src={schoolLifeImage} alt="School Life" />

@@ -14,6 +14,7 @@ import Vet_Class from './components/Classes/Vet_Class';
 import Nursing_Class from './components/Classes/Nursing_Class';
 import Math_Class from './components/Classes/Math_Class';
 import Engineering_Class from './components/Classes/Engineering_Class';
+import ProfilePage from './components/ProfilePage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <>
             <Landing />
             <Info />
+            <h1 className="text-center p-8 text-5xl font-semibold bg-gray-400 text-white underline underline-offset-8">Popular Courses</h1>
             <Courses />
           </>
         } />
@@ -36,6 +38,7 @@ function App() {
         <Route path="nursing_class" element={<Nursing_Class/>} />
         <Route path="math_class" element={<Math_Class/>} />
         <Route path="engineering_class" element={<Engineering_Class/>} />
+        <Route path="profile" element={<ProfilePage/>} />
       </Routes>
     </Router>
   );
