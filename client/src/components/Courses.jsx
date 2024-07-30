@@ -12,11 +12,10 @@ import scienceImage from '../assets/images/scienceClass.jpg';
 const Courses = () => {
     return (
         <div className="bg-gray-400 h-full" id="courses">
-            <h1 className="text-center p-8 text-5xl">Courses</h1>
             <div className="flex flex-wrap p-12 h-full text-center justify-center gap-6">
                 <Link
                     to="/math_class"
-                    className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                    className="block max-w-sm p-6   bg-white shadow-lg border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
                 >
                     <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Mathematics (MATH)
@@ -28,7 +27,7 @@ const Courses = () => {
                 </Link>
                 <Link
                     to="/nursing_class"
-                    className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                    className="block max-w-sm p-6  bg-white shadow-lg border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
                 >
                     <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Nursing (NURS)
@@ -40,7 +39,7 @@ const Courses = () => {
                 </Link>
                 <Link
                     to="/english_class"
-                    className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                    className="block max-w-sm p-6  bg-white shadow-lg border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
                 >
                     <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         ENGL 1010
@@ -52,7 +51,7 @@ const Courses = () => {
                 </Link>
                 <Link
                     to="/cs_class"
-                    className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                    className="block max-w-sm p-6  bg-white shadow-lg border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
                 >
                     <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Computer Science
@@ -64,7 +63,7 @@ const Courses = () => {
                 </Link>
                 <Link
                     to="/engineering_class"
-                    className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                    className="block max-w-sm p-6  bg-white shadow-lg border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
                 >
                     <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Pre-Engineering
@@ -76,7 +75,7 @@ const Courses = () => {
                 </Link>
                 <Link
                     to="/veterinary_class"
-                    className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                    className="block max-w-sm p-6  bg-white shadow-lg border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
                 >
                     <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Veterinary Medicine
@@ -88,7 +87,7 @@ const Courses = () => {
                 </Link>
                 <Link
                     to="/animation_class"
-                    className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                    className="block max-w-sm p-6  bg-white shadow-lg border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
                 >
                     <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         2D Animation
@@ -100,7 +99,7 @@ const Courses = () => {
                 </Link>
                 <Link
                     to="/science_class"
-                    className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                    className="block max-w-sm p-6  bg-white shadow-lg border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
                 >
                     <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Science

@@ -17,6 +17,11 @@ const English_Class = () => {
                 <p className="p-12 text-gray-300 dark:text-gray-300 text-2xl">
                 Calyek University's English program develops students' writing, speaking, and interpretative skills across professional, social, and cultural contexts. Emphasizing both standard English proficiency and the appreciation of linguistic diversity, the program explores traditional literary works while encouraging critical analysis and inclusion of diverse voices in academic and societal spheres.
                 </p>
+            <div>
+                <button className="bg-gray-400 p-6 m-6 rounded rounded-lg shadow-lg border border-2 text-white">
+                    Add Class +
+                </button>
+            </div>
             </div>
         </div>
     );
